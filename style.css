@@ -56,10 +56,15 @@ h1 {
 
 #flexBox3 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
   background-color: royalblue;
   padding: 30px;
+}
+
+.categories {
+  display: flex;
 }
 
 .items {
