@@ -1,19 +1,74 @@
+:root {
+  --blue: #92b4ec;
+  --white: #ffffff;
+  --gold: #ffd24c;
+  --itemWidth: 185px;
+  --itemHeight: 185px;
+}
+
 h1,
 h2 {
   font-family: Lato;
 }
 
-html {
+html,
+body,
+h1 {
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
-/* CSS Grid */
-/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+/* CSS Flexbox */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background */
 
 .container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   width: 100vw;
   background-color: black;
+}
+
+.mainHeader {
+  margin: 15px 0px;
+}
+
+.modal {
+  background-color: grey;
+}
+
+#flexBox1 {
+  background-color: grey;
+}
+
+.featured {
+  background-color: teal;
+}
+
+#flexBox2 {
+  background-color: teal;
+}
+
+.products {
+  background-color: royalblue;
+}
+
+#flexBox3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: royalblue;
+  padding: 30px;
+}
+
+.items {
+  background-color: white;
+  margin: 10px;
+  width: var(--itemWidth);
+  height: var(--itemHeight);
+}
+
+#flexBox4 {
+  background-color: olive;
 }
