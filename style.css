@@ -1,9 +1,7 @@
 :root {
-  --blue: #92b4ec;
-  --white: #ffffff;
-  --gold: #ffd24c;
   --itemWidth: 185px;
   --itemHeight: 185px;
+  --headerMargin: 15px 10px;
 }
 
 h1,
@@ -30,9 +28,22 @@ h1 {
   background-color: black;
 }
 
-.mainHeader {
-  margin: 15px 0px;
+/* nav bar */
+.navBar {
+  background-color: black;
+  height: 175px;
+  
 }
+
+#navHeader {
+  color: whitesmoke;
+}
+
+.mainHeader {
+  margin: var(--headerMargin);
+}
+
+/* modal*/
 
 .modal {
   background-color: grey;
@@ -47,9 +58,11 @@ h1 {
   height: 400px;
   margin: auto;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 55px;
   background-color: cadetblue;
 }
+
+/* featured */
 
 .featured {
   background-color: teal;
@@ -57,7 +70,10 @@ h1 {
 
 #flexBox2 {
   background-color: teal;
+  height: 200px;
 }
+
+/* products */
 
 .products {
   background-color: royalblue;
@@ -83,6 +99,9 @@ h1 {
   height: var(--itemHeight);
 }
 
+/* footer */
+
 #flexBox4 {
   background-color: olive;
+  height: 100px;
 }
