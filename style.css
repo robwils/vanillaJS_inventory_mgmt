@@ -74,6 +74,10 @@ body {
   height: 200px;
 }
 
+.modalBody {
+  /* display: none; */
+}
+
 /* products */
 
 .products {
@@ -89,6 +93,13 @@ body {
   padding: 30px;
 }
 
+.sliderWrapper {
+  position: relative;
+  margin: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
 .categories {
   display: flex;
 }
@@ -98,6 +109,7 @@ body {
   margin: 10px;
   width: var(--itemWidth);
   height: var(--itemHeight);
+  transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
 }
 
 /* footer */
