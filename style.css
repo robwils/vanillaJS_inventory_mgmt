@@ -71,11 +71,16 @@ body {
 
 #flexBox2 {
   background-color: teal;
-  height: 200px;
+  height: 300px;
 }
 
-.modalBody {
-  /* display: none; */
+.tabBody {
+  margin: 2rem;
+}
+
+.tabContent {
+  background-color: white;
+  height: 70px;
 }
 
 /* products */
