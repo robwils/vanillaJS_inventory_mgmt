@@ -46,7 +46,7 @@ body {
 
 /* modal*/
 
-.modal {
+.carousel {
   background-color: grey;
   margin-top: 70px;
 }
@@ -55,7 +55,7 @@ body {
   background-color: grey;
 }
 
-.modalContainer {
+.carouselContainer {
   width: 90%;
   height: 300px;
   margin: auto;
